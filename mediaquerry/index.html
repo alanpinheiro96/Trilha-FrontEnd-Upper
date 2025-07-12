@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <i id="burguer" class="material-icons" onclick="clicMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#"></a>Opção 1</li>
+                <li><a href="#"></a>Opção 2</li>
+                <li><a href="#"></a>Opção 3</li>
+                <li><a href="#"></a>Opção 4</li>
+                <li><a href="#"></a>Opção 5</li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Bem-vindo ao meu site</h2>
+            <p>Este é um exemplo de página HTML com um menu e um artigo.</p>
+            <p>Você pode adicionar mais conteúdo aqui conforme necessário.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis maiores dignissimos non a rerum ex sint autem dolorum dolores eos culpa quidem cumque porro ratione, reiciendis, explicabo quis. Molestias, iure.</p>
+        </article>
+    </main>
+
+    <script>
+        function clicMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none';
+            } else {
+                itens.style.display = 'block';
+            }
+        }
+      
+    </script>
+</body>
+</html>
